@@ -1,0 +1,166 @@
+body {
+  background-color: #E4E6EB;
+  font-family: 'Assistant', sans-serif;
+}
+
+//navbar
+.navbar-brand{
+  img{
+    max-height: 40px;
+  }
+}
+
+.btn-navbar-right {
+  margin-top: -10px !important;
+  height: 70px;
+  margin-bottom: -8px !important;
+  margin-right: -18px !important;
+  border-radius: 0;
+}
+
+.navbar-light {
+  .navbar-nav {
+    .nav-link {
+      color: #071C4D;
+
+      &.active {
+        font-weight: bold;
+        color: #071C4D !important;
+      }
+    }
+  }
+}
+
+
+
+//header
+header{
+  padding:180px 0 165px ;
+  margin-top: -70px;
+  background-image: url(/images/bg2.png);
+  background-size: cover;
+
+  h1,p{
+    color: #fff;
+  }
+
+  h1{
+    font-family: 'Playfair Display',serif;
+    font-weight: bold;
+  }
+}
+
+ //statistik
+ .section-stats{
+   margin-top: -50px;
+  
+
+   .stats-detail{
+     padding-top: 15px;
+     background-color: #fff;
+     padding-left: 40px;
+   }
+
+   h2{
+     font-size: 30px;
+     margin-bottom: 0;
+     margin-top: 20px;
+   }
+
+   p{
+     font-size: 20px;
+     font-weight: lighter ;
+   }
+ }
+
+ //pouplar food
+ .section-popular{
+  min-height: 540px;
+  background-color: #051334 ;
+  margin-top: -67px;
+  margin-bottom: -230px;
+
+  .section-popular-heading{
+      margin-top: 150px;
+
+      h2,p{
+          color: white;
+
+      }
+      h2{
+          font-family:'Playfair Display' serif ;
+          font-weight: bold;
+          font-size: 40px;
+      }
+
+      p{
+          font-size: 18px;
+      }
+  } 
+
+}
+
+//popular content
+.section-popular-content{
+  .section-popular-travel{
+      .card-travel{
+          min-height: 380px;
+          background-color: #ddd;
+          color: white;
+          padding: 30px;
+          background-size: cover;
+          margin-bottom: 20px;
+      } 
+
+      .travel-country{
+          font-size: 18px;
+          color: white;
+      }
+      .travel-location{
+          font-size: 26px;
+          color: white;
+      }
+      .travel-button{
+          .btn-travel-details{
+              background-color:  #FF9E53;
+              color: white;
+
+              &:hover{
+                  background-color: #FFAE6F;
+                  color: white;
+
+          }
+
+          
+          }
+      }
+  }
+}
+
+//network
+.section-network{
+  background-color: white;
+  margin-top: -170px;
+  padding-top: 240px;
+  padding-bottom: 50px;
+
+  h2{
+      font-family: 'playfair Display',serif;
+      font-weight: bold;
+      font-size: 40px;
+      
+  } 
+
+     img{
+         max-width: 100%;
+     }
+  
+}
+
+//FOOTER
+.section-footer{
+  a{
+      color: #071c4D;
+  }
+ 
+} 
